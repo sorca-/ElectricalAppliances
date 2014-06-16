@@ -9,6 +9,6 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
-        LOGGER.info("Hello!");
+        LOGGER.debug("in main");
     }
 }
