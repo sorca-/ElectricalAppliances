@@ -4,3 +4,7 @@
 15.06.2014 23:54:55 [main] INFO  by.bsu.boika.electrical.main.Main  - Hello!
 16.06.2014 16:27:26 [main] INFO  by.bsu.boika.electrical.main.Main  - Hello!
 16.06.2014 16:28:22 [main] DEBUG by.bsu.boika.electrical.main.Main  - in main
+16.06.2014 16:55:28 [main] DEBUG by.bsu.boika.electrical.main.Main  - in main
+16.06.2014 16:55:28 [main] INFO  by.bsu.boika.electrical.model.ElectricalAppliances  - by.bsu.boika.electrical.model.Hairdryer@688c7c7f
+16.06.2014 17:01:05 [main] DEBUG by.bsu.boika.electrical.main.Main  - in main
+16.06.2014 17:01:26 [main] DEBUG by.bsu.boika.electrical.main.Main  - in main

@@ -1,4 +1,5 @@
 package by.bsu.boika.electrical.main;
+import by.bsu.boika.electrical.model.Hairdryer;
 import org.apache.log4j.Logger;
 
 public class Main {
@@ -10,5 +11,6 @@ public class Main {
 
     public static void main(String[] args) {
         LOGGER.debug("in main");
+        Hairdryer hairdryer = new Hairdryer();
     }
 }
