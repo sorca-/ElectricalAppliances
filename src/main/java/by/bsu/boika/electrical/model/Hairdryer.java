@@ -12,14 +12,14 @@ public class Hairdryer extends LocalElectrical {
     }
 
     @Override
-    public void on() {
-        super.on();
+    public void switchOn() {
+        super.switchOn();
         startBlow();
     }
 
     @Override
-    public void off() {
-        super.off();
+    public void switchOff() {
+        super.switchOff();
         finishBlow();
     }
 
