@@ -11,11 +11,10 @@ public class Functions {
 
     private static final String LOG_CONFIGURATIONS_PATH = "src\\main\\resources\\log4j.xml";
     static final Logger LOGGER = Logger.getLogger(Functions.class);
-    ArrayList<ElectricalAppliance> electricalAppliances;
-
     static {
         new DOMConfigurator().doConfigure(LOG_CONFIGURATIONS_PATH, LogManager.getLoggerRepository());
     }
+    private ArrayList<ElectricalAppliance> electricalAppliances;
 
     public Functions(ArrayList<ElectricalAppliance> electricalAppliances) {
         this.electricalAppliances = electricalAppliances;
