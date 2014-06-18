@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<appliances>
+
+	<appliance id = "1">
+		<name>Hairdryer</name>
+        <model>HXC37</model>
+		<producer>Philips</producer>
+		<power>100</power>
+        <voltage>220</voltage>
+	</appliance>
+	
+	<appliance id = "2">
+		<name>Hairdryer</name>
+        <model>HSY55</model>
+		<producer>SONY</producer>
+		<power>200</power>
+        <voltage>220</voltage>
+	</appliance>
+	
+	<appliance id = "3">
+		<name>Kettle</name>
+        <model>KPB43</model>
+		<producer>Philips</producer>
+		<power>1000</power>
+        <voltage>220</voltage>
+	</appliance>
+
+
+	<appliance id = "4">
+		<name>Photo_Camera</name>
+        <model>D5100</model>
+		<producer>NIKON</producer>
+		<power>9</power>
+        <voltage>6</voltage>
+	</appliance>
+
+
+	<appliance id = "5">
+		<name>Media_Center</name>
+        <model>MCS22</model>
+		<producer>SONY</producer>
+		<power>100</power>
+        <voltage>220</voltage>
+	</appliance>	
+	
+
+</appliances>
