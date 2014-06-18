@@ -10,3 +10,59 @@
 16.06.2014 17:01:26 [main] DEBUG by.bsu.boika.electrical.main.Main  - in main
 18.06.2014 14:24:40 [main] INFO  by.bsu.boika.electrical.main.Main  - [HAIRDRYER Philips HXC37, HAIRDRYER SONY HSY55, by.bsu.boika.electrical.model.Kettle@5e902791, by.bsu.boika.electrical.model.PhotoCamera@4a15d117, by.bsu.boika.electrical.model.MediaCenter@5e526300]
 18.06.2014 14:32:17 [main] INFO  by.boika.electrical.main.Main  - [HAIRDRYER Philips HXC37, HAIRDRYER SONY HSY55, by.boika.electrical.model.Kettle@5e902791, by.boika.electrical.model.PhotoCamera@4a15d117, by.boika.electrical.model.MediaCenter@5e526300]
+18.06.2014 14:34:33 [main] INFO  by.boika.electrical.main.Main  - [HAIRDRYER Philips HXC37, HAIRDRYER SONY HSY55, KETTLE Philips KPB43, PHOTO_CAMERA NIKON D5100, MEDIA_CENTER SONY MCS22]
+18.06.2014 14:35:28 [main] INFO  by.boika.electrical.main.Main  - [HAIRDRYER Philips HXC37, HAIRDRYER SONY HSY55, KETTLE Philips KPB43, PHOTO_CAMERA NIKON D5100, MEDIA_CENTER SONY MCS22]
+18.06.2014 16:04:16 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
+18.06.2014 16:04:16 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
+18.06.2014 16:04:16 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:04:16 [main] INFO  by.boika.electrical.main.Main  - 5
+18.06.2014 16:13:09 [main] INFO  by.boika.electrical.parser.DOMParserReader  - HAIRDRYER HXC37 Philips 100 220
+18.06.2014 16:13:09 [main] INFO  by.boika.electrical.parser.DOMParserReader  - HAIRDRYER HSY55 SONY 200 220
+18.06.2014 16:13:09 [main] INFO  by.boika.electrical.parser.DOMParserReader  - KETTLE KPB43 Philips 1000 220
+18.06.2014 16:13:09 [main] INFO  by.boika.electrical.parser.DOMParserReader  - PHOTO_CAMERA D5100 NIKON 9 6
+18.06.2014 16:13:09 [main] INFO  by.boika.electrical.parser.DOMParserReader  - MEDIA_CENTER MCS22 SONY 100 220
+18.06.2014 16:13:09 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
+18.06.2014 16:13:09 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
+18.06.2014 16:13:09 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:13:09 [main] INFO  by.boika.electrical.main.Main  - 5
+18.06.2014 16:15:53 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER Philips 220 100
+18.06.2014 16:15:53 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER SONY 220 200
+18.06.2014 16:15:53 [main] INFO  by.boika.electrical.main.Main  - KETTLE Philips 220 1000
+18.06.2014 16:15:53 [main] INFO  by.boika.electrical.main.Main  - PHOTO_CAMERA NIKON 6 9
+18.06.2014 16:15:53 [main] INFO  by.boika.electrical.main.Main  - MEDIA_CENTER SONY 220 100
+18.06.2014 16:15:53 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
+18.06.2014 16:15:53 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
+18.06.2014 16:15:53 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:15:53 [main] INFO  by.boika.electrical.main.Main  - 5
+18.06.2014 16:16:42 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER Philips 220 100
+18.06.2014 16:16:42 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER SONY 220 200
+18.06.2014 16:16:42 [main] INFO  by.boika.electrical.main.Main  - KETTLE Philips 220 1000
+18.06.2014 16:16:42 [main] INFO  by.boika.electrical.main.Main  - PHOTO_CAMERA NIKON 6 9
+18.06.2014 16:16:42 [main] INFO  by.boika.electrical.main.Main  - MEDIA_CENTER SONY 220 100
+18.06.2014 16:16:42 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
+18.06.2014 16:16:42 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
+18.06.2014 16:16:42 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:16:42 [main] INFO  by.boika.electrical.main.Main  - 5
+18.06.2014 16:16:57 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER Philips 220 100
+18.06.2014 16:16:57 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER SONY 220 200
+18.06.2014 16:16:57 [main] INFO  by.boika.electrical.main.Main  - KETTLE Philips 220 1000
+18.06.2014 16:16:57 [main] INFO  by.boika.electrical.main.Main  - PHOTO_CAMERA NIKON 6 9
+18.06.2014 16:16:57 [main] INFO  by.boika.electrical.main.Main  - MEDIA_CENTER SONY 220 100
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.Functions  - 0
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.Functions  - 1
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.Functions  - 2
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.Functions  - 3
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.Functions  - 4
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.main.Main  - 5
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.Functions  - 100
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.Functions  - 300
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.Functions  - 1300
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.Functions  - 1309
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.Functions  - 1409
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.main.Main  - 1409
