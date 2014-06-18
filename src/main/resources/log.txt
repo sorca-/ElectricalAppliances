@@ -89,3 +89,10 @@
 18.06.2014 16:44:01 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - MEDIA_CENTER SONY MCS22 begin play
 18.06.2014 16:44:01 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
 18.06.2014 16:44:01 [main] INFO  by.boika.electrical.main.Main  - 1409
+18.06.2014 17:13:32 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER Philips HXC37 begin to blow
+18.06.2014 17:13:33 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
+18.06.2014 17:13:33 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - KETTLE Philips KPB43 begin boil
+18.06.2014 17:13:33 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - PHOTO_CAMERA NIKON D5100 camera on
+18.06.2014 17:13:33 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - MEDIA_CENTER SONY MCS22 begin play
+18.06.2014 17:13:33 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 17:13:33 [main] INFO  by.boika.electrical.main.Main  - 1409
