@@ -8,3 +8,4 @@
 16.06.2014 16:55:28 [main] INFO  by.bsu.boika.electrical.model.ElectricalAppliance  - by.bsu.boika.electrical.model.Hairdryer@688c7c7f
 16.06.2014 17:01:05 [main] DEBUG by.bsu.boika.electrical.main.Main  - in main
 16.06.2014 17:01:26 [main] DEBUG by.bsu.boika.electrical.main.Main  - in main
+18.06.2014 14:24:40 [main] INFO  by.bsu.boika.electrical.main.Main  - [HAIRDRYER Philips HXC37, HAIRDRYER SONY HSY55, by.bsu.boika.electrical.model.Kettle@5e902791, by.bsu.boika.electrical.model.PhotoCamera@4a15d117, by.bsu.boika.electrical.model.MediaCenter@5e526300]
