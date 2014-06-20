@@ -1,18 +1,21 @@
 package by.boika.electrical.model;
 
-public class MediaCenter extends LocalElectrical {
+public class MediaCenter extends AbstractLocalAppliance {
 
     private final String BEGIN_PLAY = "begin play";
     private final String FINISH_PLAY = "finish play";
-    private final int id = 29;
+    private final int FACTOR = 31;
+    private int maxVolume;
 
-    public MediaCenter(ApplianceType applianceType, String model, String producer, int power, int voltage) {
-        super(applianceType, model, producer, power, voltage);
+    public MediaCenter(int id, TypesOfAppliances typeOfAppliance, String model, String producer, int power, int voltage, int countOfPhase, int maxVolume) {
+        super(id, typeOfAppliance, model, producer, power, voltage, countOfPhase);
+        this.maxVolume = maxVolume;
     }
 
     @Override
     public int hashCode() {
-        return id * getModel().hashCode() + getProducer().hashCode();
+        LOGGER.info("MC - " + getModel());
+        return FACTOR * getID() + getModel().hashCode() + maxVolume + getPower();
     }
 
     @Override
@@ -24,9 +27,9 @@ public class MediaCenter extends LocalElectrical {
         if (getClass() != obj.getClass())
             return false;
         MediaCenter sample = (MediaCenter) obj;
-        if (getModel() != sample.getModel())
+        if (getModel().equals(sample.getModel()))
             return false;
-        if (getProducer() != sample.getProducer())
+        if (getProducer().equals(sample.getProducer()))
             return false;
         if (getPower() != sample.getPower())
             return false;

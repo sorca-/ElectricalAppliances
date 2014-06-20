@@ -4,64 +4,60 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 
-public abstract class ElectricalAppliance {
+public abstract class AbstractElectricalAppliance {
 
     private static final String LOG_CONFIGURATIONS_PATH = "src\\main\\resources\\log4j.xml";
-    static final Logger LOGGER = Logger.getLogger(ElectricalAppliance.class);
+    static final Logger LOGGER = Logger.getLogger(AbstractElectricalAppliance.class);
+    private String model;
+    private String producer;
+    private int power;
+    private int voltage;
+    private boolean switchedOn;
+    private TypesOfAppliances typeOfAppliance;
+    private final int ID;
 
     static {
         new DOMConfigurator().doConfigure(LOG_CONFIGURATIONS_PATH, LogManager.getLoggerRepository());
     }
 
-    private String model;
-    private String producer;
-    private int power;
-    private int voltage;
-
-    private boolean switchedOn;
-    private ApplianceType applianceType;
-
-    public ElectricalAppliance(ApplianceType applianceType, String model, String producer, int power, int voltage) {
+    public AbstractElectricalAppliance(int id, TypesOfAppliances typeOfAppliance, String model, String producer, int power, int voltage) {
+        this.ID = id;
         this.model = model;
         this.producer = producer;
         this.power = power;
         this.voltage = voltage;
-        this.applianceType = applianceType;
+        this.typeOfAppliance = typeOfAppliance;
     }
 
+    public int getID() {
+        return ID;
+    }
     public String getModel() {
         return model;
     }
-
-    public ApplianceType getApplianceType() {
-        return applianceType;
+    public TypesOfAppliances getTypeOfAppliance() {
+        return typeOfAppliance;
     }
-
     public String getProducer() {
         return producer;
     }
-
     public int getPower() {
         return power;
     }
-
     public int getVoltage() {
         return voltage;
     }
-
     public boolean isSwitchedOn() {
         return switchedOn;
     }
-
     public void switchOn () {
         this.switchedOn = true;
     }
     public void switchOff () {
         this.switchedOn = false;
     }
-
     @Override
     public String toString() {
-        return getApplianceType().toString() + " " + getProducer() + " " + getModel();
+        return getTypeOfAppliance().toString() + " " + getProducer() + " " + getModel();
     }
 }

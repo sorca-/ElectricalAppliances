@@ -1,13 +1,15 @@
 package by.boika.electrical.model;
 
-public class PhotoCamera extends PortableElectrical {
+public class PhotoCamera extends AbstractPortableAppliance {
 
     private final String CAMERA_ON = "camera on";
     private final String CAMERA_OFF = "camera off";
-    private final int id = 28;
+    private final int FACTOR = 31;
+    private int resolution;
 
-    public PhotoCamera(ApplianceType applianceType, String model, String producer, int power, int voltage) {
-        super(applianceType, model, producer, power, voltage);
+        public PhotoCamera(int id, TypesOfAppliances typeOfAppliance, String model, String producer, int power, int voltage, int countOfBatteries, TypesOfBatteries typeOfBattery, int resolution) {
+        super(id, typeOfAppliance, model, producer, power, voltage, countOfBatteries, typeOfBattery);
+        this.resolution = resolution;
     }
 
     @Override
@@ -24,7 +26,8 @@ public class PhotoCamera extends PortableElectrical {
 
     @Override
     public int hashCode() {
-        return id * getModel().hashCode() + getProducer().hashCode();
+        LOGGER.info("PC - " + getModel());
+        return FACTOR * getID() + getModel().hashCode() + resolution + getPower();
     }
 
     @Override
@@ -36,9 +39,9 @@ public class PhotoCamera extends PortableElectrical {
         if (getClass() != obj.getClass())
             return false;
         PhotoCamera sample = (PhotoCamera) obj;
-        if (getModel() != sample.getModel())
+        if (getModel().equals(sample.getModel()))
             return false;
-        if (getProducer() != sample.getProducer())
+        if (getProducer().equals(sample.getProducer()))
             return false;
         if (getPower() != sample.getPower())
             return false;

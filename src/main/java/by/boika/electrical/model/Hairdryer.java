@@ -1,12 +1,14 @@
 package by.boika.electrical.model;
 
-public class Hairdryer extends LocalElectrical {
+public class Hairdryer extends AbstractLocalAppliance {
     private final String BEGIN_TO_BLOW = "begin to blow";
     private final String FINISH_BLOW = "finish blow";
-    private final int id = 31;
+    private final int FACTOR = 31;
+    private int countOfModes;
 
-    public Hairdryer(ApplianceType applianceType, String model, String producer, int power, int voltage) {
-        super(applianceType, model, producer, power, voltage);
+    public Hairdryer(int id, TypesOfAppliances typeOfAppliance, String model, String producer, int power, int voltage, int countOfPhase, int countOfModes) {
+        super(id, typeOfAppliance, model, producer, power, voltage, countOfPhase);
+        this.countOfModes = countOfModes;
     }
 
     @Override
@@ -23,7 +25,8 @@ public class Hairdryer extends LocalElectrical {
 
     @Override
     public int hashCode() {
-        return id * getModel().hashCode() + getProducer().hashCode();
+        LOGGER.info("фен - " + getModel());
+        return FACTOR * getID() + getModel().hashCode() + countOfModes + getPower();
     }
 
     @Override
@@ -35,9 +38,9 @@ public class Hairdryer extends LocalElectrical {
         if (getClass() != obj.getClass())
             return false;
         Hairdryer sample = (Hairdryer) obj;
-        if (getModel() != sample.getModel())
+        if (getModel().equals(sample.getModel()))
             return false;
-        if (getProducer() != sample.getProducer())
+        if (getProducer().equals(sample.getProducer()))
             return false;
         if (getPower() != sample.getPower())
             return false;

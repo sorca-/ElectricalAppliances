@@ -1,6 +1,7 @@
 package by.boika.electrical.main;
-import by.boika.electrical.functionality.Functions;
-import by.boika.electrical.model.ElectricalAppliance;
+import by.boika.electrical.exceptions.LogicalException;
+import by.boika.electrical.functionality.ControlAppliances;
+import by.boika.electrical.model.AbstractElectricalAppliance;
 import by.boika.electrical.parser.DOMParserReader;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -19,9 +20,9 @@ public class Main {
         new DOMConfigurator().doConfigure(LOG_CONFIGURATIONS_PATH, LogManager.getLoggerRepository());
     }
 
-    public static void main(String[] args) throws ParserConfigurationException {
+    public static void main(String[] args) throws ParserConfigurationException, LogicalException {
 
-        ArrayList<ElectricalAppliance> electricalAppliances = new ArrayList<ElectricalAppliance>();
+        ArrayList<AbstractElectricalAppliance> electricalAppliances = new ArrayList<AbstractElectricalAppliance>();
         DOMParserReader domParserReader = new DOMParserReader();
         try {
             domParserReader.parseElectricalAppliance(PATH, electricalAppliances);
@@ -31,10 +32,14 @@ public class Main {
             LOGGER.error(e);
         }
 
+        for (AbstractElectricalAppliance electricalAppliance : electricalAppliances) {
+            LOGGER.info(electricalAppliance.toString());
+        }
 
-        Functions functions = new Functions(electricalAppliances);
-        functions.switchOnAllAppliance();
-        LOGGER.info(functions.calculatePower());
+
+//        ControlAppliances functions = new ControlAppliances(abstractElectricalAppliances);
+//        functions.switchOnAllAppliance();
+//        LOGGER.info(functions.calculatePower());
 
 
 

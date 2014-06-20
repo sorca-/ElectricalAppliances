@@ -12,94 +12,141 @@
 18.06.2014 14:32:17 [main] INFO  by.boika.electrical.main.Main  - [HAIRDRYER Philips HXC37, HAIRDRYER SONY HSY55, by.boika.electrical.model.Kettle@5e902791, by.boika.electrical.model.PhotoCamera@4a15d117, by.boika.electrical.model.MediaCenter@5e526300]
 18.06.2014 14:34:33 [main] INFO  by.boika.electrical.main.Main  - [HAIRDRYER Philips HXC37, HAIRDRYER SONY HSY55, KETTLE Philips KPB43, PHOTO_CAMERA NIKON D5100, MEDIA_CENTER SONY MCS22]
 18.06.2014 14:35:28 [main] INFO  by.boika.electrical.main.Main  - [HAIRDRYER Philips HXC37, HAIRDRYER SONY HSY55, KETTLE Philips KPB43, PHOTO_CAMERA NIKON D5100, MEDIA_CENTER SONY MCS22]
-18.06.2014 16:04:16 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
-18.06.2014 16:04:16 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
-18.06.2014 16:04:16 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:04:16 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - begin to blow
+18.06.2014 16:04:16 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - begin to blow
+18.06.2014 16:04:16 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances is work
 18.06.2014 16:04:16 [main] INFO  by.boika.electrical.main.Main  - 5
 18.06.2014 16:13:09 [main] INFO  by.boika.electrical.parser.DOMParserReader  - HAIRDRYER HXC37 Philips 100 220
 18.06.2014 16:13:09 [main] INFO  by.boika.electrical.parser.DOMParserReader  - HAIRDRYER HSY55 SONY 200 220
 18.06.2014 16:13:09 [main] INFO  by.boika.electrical.parser.DOMParserReader  - KETTLE KPB43 Philips 1000 220
 18.06.2014 16:13:09 [main] INFO  by.boika.electrical.parser.DOMParserReader  - PHOTO_CAMERA D5100 NIKON 9 6
 18.06.2014 16:13:09 [main] INFO  by.boika.electrical.parser.DOMParserReader  - MEDIA_CENTER MCS22 SONY 100 220
-18.06.2014 16:13:09 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
-18.06.2014 16:13:09 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
-18.06.2014 16:13:09 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:13:09 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - begin to blow
+18.06.2014 16:13:09 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - begin to blow
+18.06.2014 16:13:09 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances is work
 18.06.2014 16:13:09 [main] INFO  by.boika.electrical.main.Main  - 5
 18.06.2014 16:15:53 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER Philips 220 100
 18.06.2014 16:15:53 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER SONY 220 200
 18.06.2014 16:15:53 [main] INFO  by.boika.electrical.main.Main  - KETTLE Philips 220 1000
 18.06.2014 16:15:53 [main] INFO  by.boika.electrical.main.Main  - PHOTO_CAMERA NIKON 6 9
 18.06.2014 16:15:53 [main] INFO  by.boika.electrical.main.Main  - MEDIA_CENTER SONY 220 100
-18.06.2014 16:15:53 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
-18.06.2014 16:15:53 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
-18.06.2014 16:15:53 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:15:53 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - begin to blow
+18.06.2014 16:15:53 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - begin to blow
+18.06.2014 16:15:53 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances is work
 18.06.2014 16:15:53 [main] INFO  by.boika.electrical.main.Main  - 5
 18.06.2014 16:16:42 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER Philips 220 100
 18.06.2014 16:16:42 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER SONY 220 200
 18.06.2014 16:16:42 [main] INFO  by.boika.electrical.main.Main  - KETTLE Philips 220 1000
 18.06.2014 16:16:42 [main] INFO  by.boika.electrical.main.Main  - PHOTO_CAMERA NIKON 6 9
 18.06.2014 16:16:42 [main] INFO  by.boika.electrical.main.Main  - MEDIA_CENTER SONY 220 100
-18.06.2014 16:16:42 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
-18.06.2014 16:16:42 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
-18.06.2014 16:16:42 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:16:42 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - begin to blow
+18.06.2014 16:16:42 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - begin to blow
+18.06.2014 16:16:42 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances is work
 18.06.2014 16:16:42 [main] INFO  by.boika.electrical.main.Main  - 5
 18.06.2014 16:16:57 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER Philips 220 100
 18.06.2014 16:16:57 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER SONY 220 200
 18.06.2014 16:16:57 [main] INFO  by.boika.electrical.main.Main  - KETTLE Philips 220 1000
 18.06.2014 16:16:57 [main] INFO  by.boika.electrical.main.Main  - PHOTO_CAMERA NIKON 6 9
 18.06.2014 16:16:57 [main] INFO  by.boika.electrical.main.Main  - MEDIA_CENTER SONY 220 100
-18.06.2014 16:18:12 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
-18.06.2014 16:18:12 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
-18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
-18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.Functions  - 0
-18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.Functions  - 1
-18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.Functions  - 2
-18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.Functions  - 3
-18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.Functions  - 4
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - begin to blow
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - begin to blow
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances is work
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - 0
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - 1
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - 2
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - 3
+18.06.2014 16:18:12 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - 4
 18.06.2014 16:18:12 [main] INFO  by.boika.electrical.main.Main  - 5
-18.06.2014 16:18:38 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
-18.06.2014 16:18:38 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - begin to blow
-18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
-18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.Functions  - 100
-18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.Functions  - 300
-18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.Functions  - 1300
-18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.Functions  - 1309
-18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.Functions  - 1409
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - begin to blow
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - begin to blow
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances is work
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - 100
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - 300
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - 1300
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - 1309
+18.06.2014 16:18:38 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - 1409
 18.06.2014 16:18:38 [main] INFO  by.boika.electrical.main.Main  - 1409
-18.06.2014 16:21:04 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER begin to blow
-18.06.2014 16:21:04 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER begin to blow
-18.06.2014 16:21:04 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:21:04 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER begin to blow
+18.06.2014 16:21:04 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER begin to blow
+18.06.2014 16:21:04 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances is work
 18.06.2014 16:21:04 [main] INFO  by.boika.electrical.main.Main  - 1409
-18.06.2014 16:21:21 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER Philips HXC37 begin to blow
-18.06.2014 16:21:21 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
-18.06.2014 16:21:21 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:21:21 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HXC37 begin to blow
+18.06.2014 16:21:21 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
+18.06.2014 16:21:21 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances is work
 18.06.2014 16:21:21 [main] INFO  by.boika.electrical.main.Main  - 1409
-18.06.2014 16:21:46 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER Philips HXC37 begin to blow
-18.06.2014 16:21:46 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
-18.06.2014 16:21:46 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:21:46 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HXC37 begin to blow
+18.06.2014 16:21:46 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
+18.06.2014 16:21:46 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances is work
 18.06.2014 16:21:46 [main] INFO  by.boika.electrical.main.Main  - 1409
-18.06.2014 16:28:37 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER Philips HXC37 begin to blow
-18.06.2014 16:28:37 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
-18.06.2014 16:28:37 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:28:37 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HXC37 begin to blow
+18.06.2014 16:28:37 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
+18.06.2014 16:28:37 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances is work
 18.06.2014 16:28:37 [main] INFO  by.boika.electrical.main.Main  - 1409
-18.06.2014 16:44:01 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER Philips HXC37 begin to blow
-18.06.2014 16:44:01 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
-18.06.2014 16:44:01 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - KETTLE Philips KPB43 begin boil
-18.06.2014 16:44:01 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - PHOTO_CAMERA NIKON D5100 camera on
-18.06.2014 16:44:01 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - MEDIA_CENTER SONY MCS22 begin play
-18.06.2014 16:44:01 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 16:44:01 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HXC37 begin to blow
+18.06.2014 16:44:01 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
+18.06.2014 16:44:01 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 begin boil
+18.06.2014 16:44:01 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 camera on
+18.06.2014 16:44:01 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 begin play
+18.06.2014 16:44:01 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances is work
 18.06.2014 16:44:01 [main] INFO  by.boika.electrical.main.Main  - 1409
-18.06.2014 17:13:32 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER Philips HXC37 begin to blow
-18.06.2014 17:13:33 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
-18.06.2014 17:13:33 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - KETTLE Philips KPB43 begin boil
-18.06.2014 17:13:33 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - PHOTO_CAMERA NIKON D5100 camera on
-18.06.2014 17:13:33 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - MEDIA_CENTER SONY MCS22 begin play
-18.06.2014 17:13:33 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 17:13:32 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HXC37 begin to blow
+18.06.2014 17:13:33 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
+18.06.2014 17:13:33 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 begin boil
+18.06.2014 17:13:33 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 camera on
+18.06.2014 17:13:33 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 begin play
+18.06.2014 17:13:33 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances is work
 18.06.2014 17:13:33 [main] INFO  by.boika.electrical.main.Main  - 1409
-18.06.2014 17:14:52 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER Philips HXC37 begin to blow
-18.06.2014 17:14:52 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
-18.06.2014 17:14:52 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - KETTLE Philips KPB43 begin boil
-18.06.2014 17:14:52 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - PHOTO_CAMERA NIKON D5100 camera on
-18.06.2014 17:14:52 [main] INFO  by.boika.electrical.model.ElectricalAppliance  - MEDIA_CENTER SONY MCS22 begin play
-18.06.2014 17:14:52 [main] INFO  by.boika.electrical.functionality.Functions  - All appliances is work
+18.06.2014 17:14:52 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HXC37 begin to blow
+18.06.2014 17:14:52 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
+18.06.2014 17:14:52 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 begin boil
+18.06.2014 17:14:52 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 camera on
+18.06.2014 17:14:52 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 begin play
+18.06.2014 17:14:52 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances is work
 18.06.2014 17:14:52 [main] INFO  by.boika.electrical.main.Main  - 1409
+20.06.2014 14:58:10 [main] INFO  by.boika.electrical.parser.DOMParserReader  - com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@7fe4e47f
+20.06.2014 14:58:10 [main] INFO  by.boika.electrical.parser.DOMParserReader  - com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@c558f72
+20.06.2014 14:58:10 [main] INFO  by.boika.electrical.parser.DOMParserReader  - com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@453c8bb1
+20.06.2014 14:58:10 [main] INFO  by.boika.electrical.parser.DOMParserReader  - com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@9f734fa
+20.06.2014 14:58:10 [main] INFO  by.boika.electrical.parser.DOMParserReader  - com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@44b70e32
+20.06.2014 14:58:44 [main] INFO  by.boika.electrical.parser.DOMParserReader  - false
+20.06.2014 14:58:44 [main] INFO  by.boika.electrical.parser.DOMParserReader  - false
+20.06.2014 14:58:44 [main] INFO  by.boika.electrical.parser.DOMParserReader  - false
+20.06.2014 14:58:44 [main] INFO  by.boika.electrical.parser.DOMParserReader  - false
+20.06.2014 14:58:44 [main] INFO  by.boika.electrical.parser.DOMParserReader  - false
+20.06.2014 15:01:17 [main] INFO  by.boika.electrical.parser.DOMParserReader  - true
+20.06.2014 15:01:17 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 1
+20.06.2014 16:39:30 [main] INFO  by.boika.electrical.parser.DOMParserReader  - !
+20.06.2014 16:39:30 [main] INFO  by.boika.electrical.parser.DOMParserReader  - !
+20.06.2014 16:39:30 [main] INFO  by.boika.electrical.parser.DOMParserReader  - !
+20.06.2014 16:39:30 [main] INFO  by.boika.electrical.parser.DOMParserReader  - !
+20.06.2014 16:39:30 [main] INFO  by.boika.electrical.parser.DOMParserReader  - !
+20.06.2014 16:40:45 [main] INFO  by.boika.electrical.parser.DOMParserReader  - HAIRDRYER
+20.06.2014 16:40:45 [main] INFO  by.boika.electrical.parser.DOMParserReader  - HAIRDRYER
+20.06.2014 16:40:45 [main] INFO  by.boika.electrical.parser.DOMParserReader  - KETTLE
+20.06.2014 16:40:45 [main] INFO  by.boika.electrical.parser.DOMParserReader  - PHOTO_CAMERA
+20.06.2014 16:40:45 [main] INFO  by.boika.electrical.parser.DOMParserReader  - MEDIA_CENTER
+20.06.2014 16:41:06 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+20.06.2014 16:41:06 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+20.06.2014 16:41:06 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+20.06.2014 16:41:06 [main] INFO  by.boika.electrical.parser.DOMParserReader  - LI_ION
+20.06.2014 16:41:06 [main] INFO  by.boika.electrical.parser.DOMParserReader  - LI_ION
+20.06.2014 16:42:47 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER Philips HPS32
+20.06.2014 16:42:47 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER SONY HSY55
+20.06.2014 16:42:47 [main] INFO  by.boika.electrical.main.Main  - KETTLE Philips KPB43
+20.06.2014 16:42:47 [main] INFO  by.boika.electrical.main.Main  - PHOTO_CAMERA NIKON D5100
+20.06.2014 16:42:47 [main] INFO  by.boika.electrical.main.Main  - MEDIA_CENTER SONY MCS22
+20.06.2014 16:47:30 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER Philips HPS32
+20.06.2014 16:47:30 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER SONY HSY55
+20.06.2014 16:47:30 [main] INFO  by.boika.electrical.main.Main  - KETTLE Philips KPB43
+20.06.2014 16:47:30 [main] INFO  by.boika.electrical.main.Main  - PHOTO_CAMERA NIKON D5100
+20.06.2014 16:47:30 [main] INFO  by.boika.electrical.main.Main  - MEDIA_CENTER SONY MCS22
+20.06.2014 16:48:21 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER Philips HPS32
+20.06.2014 16:48:21 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER SONY HSY55
+20.06.2014 16:48:21 [main] INFO  by.boika.electrical.main.Main  - KETTLE Philips KPB43
+20.06.2014 16:48:21 [main] INFO  by.boika.electrical.main.Main  - PHOTO_CAMERA NIKON D5100
+20.06.2014 16:48:21 [main] INFO  by.boika.electrical.main.Main  - MEDIA_CENTER SONY MCS22
+20.06.2014 16:50:24 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER Philips HPS32
+20.06.2014 16:50:24 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER SONY HSY55
+20.06.2014 16:50:24 [main] INFO  by.boika.electrical.main.Main  - KETTLE Philips KPB43
+20.06.2014 16:50:24 [main] INFO  by.boika.electrical.main.Main  - PHOTO_CAMERA NIKON D5100
+20.06.2014 16:50:24 [main] INFO  by.boika.electrical.main.Main  - MEDIA_CENTER SONY MCS22

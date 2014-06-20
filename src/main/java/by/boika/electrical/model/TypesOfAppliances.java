@@ -1,6 +1,6 @@
 package by.boika.electrical.model;
 
-public enum ApplianceType {
+public enum TypesOfAppliances {
     HAIRDRYER,
     KETTLE,
     MEDIA_CENTER,

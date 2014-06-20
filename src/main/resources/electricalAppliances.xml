@@ -2,45 +2,56 @@
 <appliances>
 
 	<appliance id = "1">
-		<name>Hairdryer</name>
-        <model>HXC37</model>
+		<typeOfAppliance>Hairdryer</typeOfAppliance>
+        <model>HPS32</model>
 		<producer>Philips</producer>
 		<power>100</power>
         <voltage>220</voltage>
+        <countOfPhase>2</countOfPhase>
+        <countOfModes>4</countOfModes>
 	</appliance>
 	
 	<appliance id = "2">
-		<name>Hairdryer</name>
+		<typeOfAppliance>Hairdryer</typeOfAppliance>
         <model>HSY55</model>
 		<producer>SONY</producer>
 		<power>200</power>
         <voltage>220</voltage>
+        <countOfPhase>2</countOfPhase>
+        <countOfModes>1</countOfModes>
 	</appliance>
 	
 	<appliance id = "3">
-		<name>Kettle</name>
+		<typeOfAppliance>Kettle</typeOfAppliance>
         <model>KPB43</model>
 		<producer>Philips</producer>
 		<power>1000</power>
         <voltage>220</voltage>
+        <countOfPhase>2</countOfPhase>
+        <boilTime>110</boilTime>
 	</appliance>
 
 
 	<appliance id = "4">
-		<name>Photo_Camera</name>
+		<typeOfAppliance>Photo_Camera</typeOfAppliance>
         <model>D5100</model>
 		<producer>NIKON</producer>
 		<power>9</power>
         <voltage>6</voltage>
+        <countOfBatteries>4</countOfBatteries>
+        <typeOfBattery>LI_ION</typeOfBattery>
+        <resolution>12</resolution>
 	</appliance>
 
 
 	<appliance id = "5">
-		<name>Media_Center</name>
+		<typeOfAppliance>Media_Center</typeOfAppliance>
         <model>MCS22</model>
 		<producer>SONY</producer>
 		<power>100</power>
         <voltage>220</voltage>
+        <countOfPhase>2</countOfPhase>
+        <maxVolume>60</maxVolume>
 	</appliance>	
 	
 
