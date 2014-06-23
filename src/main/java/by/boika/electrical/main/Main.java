@@ -2,6 +2,7 @@ package by.boika.electrical.main;
 import by.boika.electrical.exceptions.LogicalException;
 import by.boika.electrical.functionality.ControlAppliances;
 import by.boika.electrical.model.AbstractElectricalAppliance;
+import by.boika.electrical.model.Hairdryer;
 import by.boika.electrical.model.Home;
 import by.boika.electrical.parser.DOMParserReader;
 import org.apache.log4j.LogManager;
@@ -29,5 +30,13 @@ public class Main {
         DOMParserReader domParserReader = new DOMParserReader();
         home.setElectricalAppliances(domParserReader.parseElectricalAppliance(PATH));
         ControlAppliances controlAppliances = new ControlAppliances();
+
+        //check function
+        controlAppliances.switchOnAllAppliance(home.getIterator());
+        LOGGER.info(controlAppliances.calculatePower(home.getIterator()));
+        controlAppliances.switchOffAllAppliance(home.getIterator());
+        controlAppliances.findElectricalAppliance(home.getIterator(), "Hairdryer", 100).switchOn();
+        controlAppliances.findElectricalAppliance(home.getIterator(), "Hairdryer", 200).switchOn();
+        LOGGER.info(controlAppliances.calculatePower(home.getIterator()));
     }
 }
