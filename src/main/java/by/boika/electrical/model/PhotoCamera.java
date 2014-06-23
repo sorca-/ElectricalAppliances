@@ -7,7 +7,7 @@ public class PhotoCamera extends AbstractPortableAppliance {
     private final int FACTOR = 31;
     private int resolution;
 
-        public PhotoCamera(int id, TypesOfAppliances typeOfAppliance, String model, String producer, int power, int voltage, int countOfBatteries, TypesOfBatteries typeOfBattery, int resolution) {
+    public PhotoCamera(int id, TypesOfAppliances typeOfAppliance, String model, String producer, int power, int voltage, int countOfBatteries, TypesOfBatteries typeOfBattery, int resolution) {
         super(id, typeOfAppliance, model, producer, power, voltage, countOfBatteries, typeOfBattery);
         this.resolution = resolution;
     }

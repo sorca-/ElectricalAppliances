@@ -58,6 +58,6 @@ public abstract class AbstractElectricalAppliance {
     }
     @Override
     public String toString() {
-        return getTypeOfAppliance().toString() + " " + getProducer() + " " + getModel();
+        return getTypeOfAppliance().toString() + " " + getProducer() + " " + getModel() + " " + getPower();
     }
 }

@@ -150,3 +150,41 @@
 20.06.2014 16:50:24 [main] INFO  by.boika.electrical.main.Main  - KETTLE Philips KPB43
 20.06.2014 16:50:24 [main] INFO  by.boika.electrical.main.Main  - PHOTO_CAMERA NIKON D5100
 20.06.2014 16:50:24 [main] INFO  by.boika.electrical.main.Main  - MEDIA_CENTER SONY MCS22
+20.06.2014 18:05:58 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER Philips HPS32
+20.06.2014 18:05:58 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER SONY HSY55
+20.06.2014 18:05:58 [main] INFO  by.boika.electrical.main.Main  - KETTLE Philips KPB43
+20.06.2014 18:05:58 [main] INFO  by.boika.electrical.main.Main  - PHOTO_CAMERA NIKON D5100
+20.06.2014 18:05:58 [main] INFO  by.boika.electrical.main.Main  - MEDIA_CENTER SONY MCS22
+22.06.2014 12:02:42 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER Philips HPS32
+22.06.2014 12:02:42 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER SONY HSY55
+22.06.2014 12:02:42 [main] INFO  by.boika.electrical.main.Main  - KETTLE Philips KPB43
+22.06.2014 12:02:42 [main] INFO  by.boika.electrical.main.Main  - PHOTO_CAMERA NIKON D5100
+22.06.2014 12:02:42 [main] INFO  by.boika.electrical.main.Main  - MEDIA_CENTER SONY MCS22
+23.06.2014 14:41:02 [main] INFO  by.boika.electrical.main.Main  - 0
+23.06.2014 14:41:48 [main] INFO  by.boika.electrical.main.Main  - 0
+23.06.2014 14:41:48 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 begin to blow
+23.06.2014 14:41:48 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
+23.06.2014 14:41:48 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 begin boil
+23.06.2014 14:41:48 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 camera on
+23.06.2014 14:41:48 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 begin play
+23.06.2014 14:41:48 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch on
+23.06.2014 14:41:48 [main] INFO  by.boika.electrical.main.Main  - 1409
+23.06.2014 14:49:49 [main] INFO  by.boika.electrical.main.Main  - 0
+23.06.2014 14:49:49 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 begin to blow
+23.06.2014 14:49:49 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
+23.06.2014 14:49:49 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 begin boil
+23.06.2014 14:49:49 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 camera on
+23.06.2014 14:49:49 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 begin play
+23.06.2014 14:49:49 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch on
+23.06.2014 14:49:49 [main] INFO  by.boika.electrical.main.Main  - 1409
+23.06.2014 14:49:59 [main] INFO  by.boika.electrical.main.Main  - 0
+23.06.2014 14:49:59 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 begin to blow
+23.06.2014 14:49:59 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 begin to blow
+23.06.2014 14:49:59 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 begin boil
+23.06.2014 14:49:59 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 camera on
+23.06.2014 14:49:59 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 begin play
+23.06.2014 14:49:59 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch on
+23.06.2014 14:49:59 [main] INFO  by.boika.electrical.main.Main  - 1409
+23.06.2014 14:49:59 [main] INFO  by.boika.electrical.main.Main  - 0
+23.06.2014 14:52:25 [main] INFO  by.boika.electrical.main.Main  - HAIRDRYER Philips HPS32 HAIRDRYER Philips HPS32
+23.06.2014 15:09:49 [main] INFO  by.boika.electrical.main.Main  - -100
