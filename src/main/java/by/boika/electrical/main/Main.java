@@ -38,6 +38,5 @@ public class Main {
         controlAppliances.findElectricalAppliance(home.getIterator(), "Hairdryer", 100).switchOn();
         controlAppliances.findElectricalAppliance(home.getIterator(), "Hairdryer", 200).switchOn();
         LOGGER.info(controlAppliances.calculatePower(home.getIterator()));
-
     }
 }
