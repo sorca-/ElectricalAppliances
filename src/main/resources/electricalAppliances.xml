@@ -1,58 +1,53 @@
 <?xml version="1.1" encoding="UTF-8" ?>
 <appliances>
+    <local>
+        <appliance id = "1" count-of-modes = "4">
+            <typeOfAppliance>Hairdryer</typeOfAppliance>
+            <model>HPS32</model>
+            <producer>Philips</producer>
+            <voltage>220</voltage>
+            <power>100</power>
+            <countOfPhase>2</countOfPhase>
+        </appliance>
 
-	<appliance id = "1">
-		<typeOfAppliance>Hairdryer</typeOfAppliance>
-        <model>HPS32</model>
-		<producer>Philips</producer>
-		<power>100</power>
-        <voltage>220</voltage>
-        <countOfPhase>2</countOfPhase>
-        <countOfModes>4</countOfModes>
-	</appliance>
-	
-	<appliance id = "2">
-		<typeOfAppliance>Hairdryer</typeOfAppliance>
-        <model>HSY55</model>
-		<producer>SONY</producer>
-		<power>200</power>
-        <voltage>220</voltage>
-        <countOfPhase>2</countOfPhase>
-        <countOfModes>1</countOfModes>
-	</appliance>
-	
-	<appliance id = "3">
-		<typeOfAppliance>Kettle</typeOfAppliance>
-        <model>KPB43</model>
-		<producer>Philips</producer>
-		<power>1000</power>
-        <voltage>220</voltage>
-        <countOfPhase>2</countOfPhase>
-        <boilTime>110</boilTime>
-	</appliance>
+        <appliance id = "2" count-of-modes="2">
+            <typeOfAppliance>Hairdryer</typeOfAppliance>
+            <model>HSY55</model>
+            <producer>SONY</producer>
+            <voltage>220</voltage>
+            <power>200</power>
+            <countOfPhase>2</countOfPhase>
+        </appliance>
 
+        <appliance id = "3" boil-time = "110">
+            <typeOfAppliance>Kettle</typeOfAppliance>
+            <model>KPB43</model>
+            <producer>Philips</producer>
+            <voltage>220</voltage>
+            <power>1000</power>
+            <countOfPhase>2</countOfPhase>
+        </appliance>
 
-	<appliance id = "4">
-		<typeOfAppliance>Photo_Camera</typeOfAppliance>
-        <model>D5100</model>
-		<producer>NIKON</producer>
-		<power>9</power>
-        <voltage>6</voltage>
-        <countOfBatteries>4</countOfBatteries>
-        <typeOfBattery>LI_ION</typeOfBattery>
-        <resolution>12</resolution>
-	</appliance>
+        <appliance id = "4" maxVolume = "60">
+            <typeOfAppliance>Media_Center</typeOfAppliance>
+            <model>MCS22</model>
+            <producer>SONY</producer>
+            <voltage>220</voltage>
+            <power>100</power>
+            <countOfPhase>2</countOfPhase>
+        </appliance>
+    </local>
 
-
-	<appliance id = "5">
-		<typeOfAppliance>Media_Center</typeOfAppliance>
-        <model>MCS22</model>
-		<producer>SONY</producer>
-		<power>100</power>
-        <voltage>220</voltage>
-        <countOfPhase>2</countOfPhase>
-        <maxVolume>60</maxVolume>
-	</appliance>	
-	
-
+    <portable>
+        <appliance id = "5" resolution = "12">
+            <typeOfAppliance>Photo_Camera</typeOfAppliance>
+            <model>D5100</model>
+            <producer>NIKON</producer>
+            <voltage>6</voltage>
+            <power>9</power>
+            <countOfBatteries>4</countOfBatteries>
+            <typeOfBattery>LI_ION</typeOfBattery>
+            <resolution>12</resolution>
+        </appliance>
+    </portable>
 </appliances>

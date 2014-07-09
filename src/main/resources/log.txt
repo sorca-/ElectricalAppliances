@@ -234,3 +234,199 @@
 23.06.2014 17:55:51 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
 23.06.2014 17:55:51 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
 23.06.2014 17:55:51 [main] INFO  by.boika.electrical.main.Main  - 300
+09.07.2014 14:49:38 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 1
+09.07.2014 14:50:07 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 5
+09.07.2014 14:50:07 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 5
+09.07.2014 14:50:07 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 5
+09.07.2014 14:50:07 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 5
+09.07.2014 14:50:07 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 5
+09.07.2014 14:51:52 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+        
+            Hairdryer
+            HPS32
+            Philips
+            220
+            100
+            2
+        
+
+        
+            Hairdryer
+            HSY55
+            SONY
+            220
+            200
+            2
+        
+
+        
+            Kettle
+            KPB43
+            Philips
+            220
+            1000
+            2
+        
+
+        
+            Media_Center
+            MCS22
+            SONY
+            220
+            100
+            2
+        
+    
+09.07.2014 14:52:14 [main] INFO  by.boika.electrical.parser.DOMParserReader  - [local: null]
+09.07.2014 14:52:26 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 14:52:40 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 14:52:49 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 14:53:20 [main] INFO  by.boika.electrical.parser.DOMParserReader  - [#text: 
+        ]
+09.07.2014 14:53:30 [main] INFO  by.boika.electrical.parser.DOMParserReader  - [#text: 
+        ]
+09.07.2014 14:53:54 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 14:54:16 [main] INFO  by.boika.electrical.parser.DOMParserReader  - com.sun.org.apache.xerces.internal.dom.AttributeMap@5e9f23b4
+09.07.2014 14:54:33 [main] INFO  by.boika.electrical.parser.DOMParserReader  - local
+09.07.2014 14:54:49 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 14:55:15 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 1
+09.07.2014 14:56:14 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+        
+09.07.2014 14:56:34 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+        
+            Hairdryer
+            HPS32
+            Philips
+            220
+            100
+            2
+        
+
+        
+            Hairdryer
+            HSY55
+            SONY
+            220
+            200
+            2
+        
+
+        
+            Kettle
+            KPB43
+            Philips
+            220
+            1000
+            2
+        
+
+        
+            Media_Center
+            MCS22
+            SONY
+            220
+            100
+            2
+        
+    
+09.07.2014 15:13:56 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 15:13:56 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 15:13:56 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 15:13:56 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 15:13:56 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 15:14:12 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+            Hairdryer
+            HPS32
+            Philips
+            220
+            100
+            2
+        
+09.07.2014 15:14:12 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+            Hairdryer
+            HPS32
+            Philips
+            220
+            100
+            2
+        
+09.07.2014 15:14:12 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+            Hairdryer
+            HPS32
+            Philips
+            220
+            100
+            2
+        
+09.07.2014 15:14:12 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+            Hairdryer
+            HPS32
+            Philips
+            220
+            100
+            2
+        
+09.07.2014 15:14:12 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+            Hairdryer
+            HPS32
+            Philips
+            220
+            100
+            2
+        
+09.07.2014 15:14:33 [main] INFO  by.boika.electrical.parser.DOMParserReader  - [local: null]
+09.07.2014 15:14:33 [main] INFO  by.boika.electrical.parser.DOMParserReader  - [local: null]
+09.07.2014 15:14:33 [main] INFO  by.boika.electrical.parser.DOMParserReader  - [local: null]
+09.07.2014 15:14:33 [main] INFO  by.boika.electrical.parser.DOMParserReader  - [local: null]
+09.07.2014 15:14:33 [main] INFO  by.boika.electrical.parser.DOMParserReader  - [local: null]
+09.07.2014 15:14:53 [main] INFO  by.boika.electrical.parser.DOMParserReader  - local
+09.07.2014 15:14:53 [main] INFO  by.boika.electrical.parser.DOMParserReader  - local
+09.07.2014 15:14:53 [main] INFO  by.boika.electrical.parser.DOMParserReader  - local
+09.07.2014 15:14:53 [main] INFO  by.boika.electrical.parser.DOMParserReader  - local
+09.07.2014 15:14:53 [main] INFO  by.boika.electrical.parser.DOMParserReader  - local
+09.07.2014 15:17:45 [main] INFO  by.boika.electrical.parser.DOMParserReader  - local
+09.07.2014 15:17:45 [main] INFO  by.boika.electrical.parser.DOMParserReader  - local
+09.07.2014 15:17:45 [main] INFO  by.boika.electrical.parser.DOMParserReader  - local
+09.07.2014 15:17:45 [main] INFO  by.boika.electrical.parser.DOMParserReader  - local
+09.07.2014 15:17:45 [main] INFO  by.boika.electrical.parser.DOMParserReader  - portable
+09.07.2014 17:43:50 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 17:43:50 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 17:43:50 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 17:43:50 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 17:43:50 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 
+09.07.2014 17:45:30 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 1
+09.07.2014 17:45:30 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 2
+09.07.2014 17:45:30 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 3
+09.07.2014 17:45:30 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 4
+09.07.2014 17:45:30 [main] INFO  by.boika.electrical.parser.DOMParserReader  - 5
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 begin boil
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 begin play
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera on
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch on
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.main.Main  - 1409
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 finish blow
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 finish blow
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 finish boil
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 finish play
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera off
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch off
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+09.07.2014 17:47:20 [main] INFO  by.boika.electrical.main.Main  - 300
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 begin boil
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 begin play
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera on
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch on
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.main.Main  - 1409
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 finish blow
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 finish blow
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 finish boil
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 finish play
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera off
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch off
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+09.07.2014 17:47:55 [main] INFO  by.boika.electrical.main.Main  - 100
