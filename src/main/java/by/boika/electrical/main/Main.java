@@ -21,11 +21,15 @@ public class Main {
         new DOMConfigurator().doConfigure(LOG_CONFIGURATIONS_PATH, LogManager.getLoggerRepository());
     }
 
-    public static void main(String[] args) throws ParserConfigurationException, LogicalException, IOException, SAXException {
+    public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException {
 
         Home home = new Home();
         DOMParserReader domParserReader = new DOMParserReader();
-        home.setElectricalAppliances(domParserReader.parseElectricalAppliance(PATH));
+        try {
+            home.setElectricalAppliances(domParserReader.parseElectricalAppliance(PATH));
+        } catch (LogicalException e) {
+            LOGGER.error("Logic exception. " + e);
+        }
         ControlAppliances controlAppliances = new ControlAppliances();
 
         //check function

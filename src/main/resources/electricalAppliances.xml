@@ -2,51 +2,51 @@
 <appliances>
     <local>
         <appliance id = "1" count-of-modes = "4">
-            <typeOfAppliance>Hairdryer</typeOfAppliance>
+            <type-of-appliance>Hairdryer</type-of-appliance>
             <model>HPS32</model>
             <producer>Philips</producer>
             <voltage>220</voltage>
             <power>100</power>
-            <countOfPhase>2</countOfPhase>
+            <count-of-phase>2</count-of-phase>
         </appliance>
 
-        <appliance id = "2" count-of-modes="2">
-            <typeOfAppliance>Hairdryer</typeOfAppliance>
+        <appliance id = "2" count-of-modes = "2">
+            <type-of-appliance>Hairdryer</type-of-appliance>
             <model>HSY55</model>
             <producer>SONY</producer>
             <voltage>220</voltage>
             <power>200</power>
-            <countOfPhase>2</countOfPhase>
+            <count-of-phase>2</count-of-phase>
         </appliance>
 
         <appliance id = "3" boil-time = "110">
-            <typeOfAppliance>Kettle</typeOfAppliance>
+            <type-of-appliance>Kettle</type-of-appliance>
             <model>KPB43</model>
             <producer>Philips</producer>
             <voltage>220</voltage>
             <power>1000</power>
-            <countOfPhase>2</countOfPhase>
+            <count-of-phase>2</count-of-phase>
         </appliance>
 
-        <appliance id = "4" maxVolume = "60">
-            <typeOfAppliance>Media_Center</typeOfAppliance>
+        <appliance id = "4" max-volume = "60">
+            <type-of-appliance>Media_Center</type-of-appliance>
             <model>MCS22</model>
             <producer>SONY</producer>
             <voltage>220</voltage>
             <power>100</power>
-            <countOfPhase>2</countOfPhase>
+            <count-of-phase>2</count-of-phase>
         </appliance>
     </local>
 
     <portable>
         <appliance id = "5" resolution = "12">
-            <typeOfAppliance>Photo_Camera</typeOfAppliance>
+            <type-of-appliance>Photo_Camera</type-of-appliance>
             <model>D5100</model>
             <producer>NIKON</producer>
             <voltage>6</voltage>
             <power>9</power>
-            <countOfBatteries>4</countOfBatteries>
-            <typeOfBattery>LI_ION</typeOfBattery>
+            <count-of-batteries>4</count-of-batteries>
+            <type-of-battery>LI_ION</type-of-battery>
             <resolution>12</resolution>
         </appliance>
     </portable>

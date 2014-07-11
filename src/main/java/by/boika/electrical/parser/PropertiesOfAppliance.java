@@ -2,18 +2,18 @@ package by.boika.electrical.parser;
 
 public enum PropertiesOfAppliance {
     ID("id"),
-    TYPE_OF_APPLIANCE("typeOfAppliance"),
+    TYPE_OF_APPLIANCE("type-of-appliance"),
     MODEL("model"),
     PRODUCER("producer"),
     POWER("power"),
     VOLTAGE("voltage"),
-    COUNT_OF_PHASE("countOfPhase"),
-    COUNT_OF_BATTERIES("countOfBatteries"),
-    COUNT_OF_MODES("countOfModes"),
-    BOIL_TIME("boilTime"),
-    MAX_VOLUME("maxVolume"),
+    COUNT_OF_PHASE("count-of-phase"),
+    COUNT_OF_BATTERIES("count-of-batteries"),
+    COUNT_OF_MODES("count-of-modes"),
+    BOIL_TIME("boil-time"),
+    MAX_VOLUME("max-volume"),
     RESOLUTION("resolution"),
-    TYPE_OF_BATTERY("typeOfBattery"),
+    TYPE_OF_BATTERY("type-of-battery"),
     LOCAL("local"),
     PORTABLE("portable");
 

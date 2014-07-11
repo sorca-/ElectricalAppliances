@@ -1,10 +1,7 @@
 package by.boika.electrical.parser;
 
 import by.boika.electrical.exceptions.LogicalException;
-import by.boika.electrical.factory.AbstractApplianceFactory;
-import by.boika.electrical.model.AbstractElectricalAppliance;
-import by.boika.electrical.model.TypesOfAppliances;
-import by.boika.electrical.model.TypesOfBatteries;
+import by.boika.electrical.model.*;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
@@ -13,7 +10,6 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -26,22 +22,7 @@ public class DOMParserReader {
     private static final String LOG_CONFIGURATIONS_PATH = "src\\main\\resources\\log4j.xml";
     private final String DEFAULT_APPLIANCES_PATH = "src\\main\\resources\\electricalAppliances.xml";
     private final String APPLIANCE = "appliance";
-    static final Logger LOGGER = Logger.getLogger(DOMParserReader.class);
-
-    private int id;
-    private static int power;
-    private static int voltage;
-    private static int countOfPhase;
-    private static int countOfBatteries;
-    private static int countOfModes;
-    private static int boilTime;
-    private static int maxVolume;
-    private static int resolution;
-    private static String model;
-    private static String producer;
-    private static TypesOfBatteries typeOfBattery;
-    private static TypesOfAppliances typeOfAppliance;
-
+    private static final Logger LOGGER = Logger.getLogger(DOMParserReader.class);
 
     //XMLParser
     private DocumentBuilderFactory dbFactory;
@@ -68,13 +49,26 @@ public class DOMParserReader {
         Node nNode;
         Element eElement;
 
+        int id;
+        int power;
+        int voltage;
+        int countOfPhase = 0;
+        int countOfBatteries = 0;
+        int countOfModes;
+        int boilTime;
+        int maxVolume;
+        int resolution;
+        String model;
+        String producer;
+        TypesOfBatteries typeOfBattery = null;
+        TypesOfAppliances typeOfAppliance;
+
         nListAppliances = doc.getElementsByTagName(APPLIANCE);
         for (int i = 0; i < nListAppliances.getLength(); i++) {
 
-
             nNode = nListAppliances.item(i);
             if (nNode.getNodeType() != Node.ELEMENT_NODE) {
-                throw new LogicalException();
+                LOGGER.error("Incorrect element node.");
             }
             eElement = (Element) nNode;
             id = Integer.parseInt(eElement.getAttribute(PropertiesOfAppliance.ID.getValue()));
@@ -86,30 +80,37 @@ public class DOMParserReader {
 
             if (eElement.getParentNode().getNodeName().equals(PropertiesOfAppliance.LOCAL)) {
                 countOfPhase = Integer.parseInt(selectValue(eElement, PropertiesOfAppliance.COUNT_OF_PHASE));
-                switch (typeOfAppliance) {
-                    case HAIRDRYER: {
-                        countOfModes = Integer.parseInt(eElement.getAttribute(PropertiesOfAppliance.COUNT_OF_MODES.getValue()));
-                    }
-                    case KETTLE: {
-                        boilTime = Integer.parseInt(eElement.getAttribute(PropertiesOfAppliance.BOIL_TIME.getValue()));
-                    }
-                    case MEDIA_CENTER: {
-                        maxVolume = Integer.parseInt(eElement.getAttribute(PropertiesOfAppliance.MAX_VOLUME.getValue()));
-                    }
-                    default: {
-                        throw new LogicalException();
-                    }
-                }
             }
             if (eElement.getParentNode().getNodeName().equals(PropertiesOfAppliance.PORTABLE)) {
                 countOfBatteries = Integer.parseInt(selectValue(eElement, PropertiesOfAppliance.COUNT_OF_BATTERIES));
-                typeOfBattery = TypesOfBatteries.valueOf(selectValue(eElement, PropertiesOfAppliance.COUNT_OF_BATTERIES).toUpperCase());
-
-                if (typeOfAppliance.equals(TypesOfAppliances.PHOTO_CAMERA)) {
+                typeOfBattery = TypesOfBatteries.valueOf(selectValue(eElement, PropertiesOfAppliance.TYPE_OF_BATTERY).toUpperCase());
+            }
+            switch (typeOfAppliance) {
+                case HAIRDRYER: {
+                    countOfModes = Integer.parseInt(eElement.getAttribute(PropertiesOfAppliance.COUNT_OF_MODES.getValue()));
+                    electricalAppliances.add (new Hairdryer(id, typeOfAppliance, model, producer, power, voltage, countOfPhase, countOfModes));
+                    break;
+                }
+                case KETTLE: {
+                    boilTime = Integer.parseInt(eElement.getAttribute(PropertiesOfAppliance.BOIL_TIME.getValue()));
+                    electricalAppliances.add(new Kettle(id, typeOfAppliance, model, producer, power, voltage, countOfPhase, boilTime));
+                    break;
+                }
+                case MEDIA_CENTER: {
+                    maxVolume = Integer.parseInt(eElement.getAttribute(PropertiesOfAppliance.MAX_VOLUME.getValue()));
+                    electricalAppliances.add(new MediaCenter(id, typeOfAppliance, model, producer, power, voltage, countOfPhase, maxVolume));
+                    break;
+                }
+                case PHOTO_CAMERA: {
                     resolution = Integer.parseInt(eElement.getAttribute(PropertiesOfAppliance.RESOLUTION.getValue()));
+                    electricalAppliances.add(new PhotoCamera(id, typeOfAppliance, model, producer, power, voltage, countOfBatteries, typeOfBattery, resolution));
+                    break;
+                }
+                default: {
+                    LOGGER.error("Can't create unknown type.");
+                    break;
                 }
             }
-               electricalAppliances.add(AbstractApplianceFactory.createAppliance(id, power, voltage, countOfPhase, countOfBatteries, countOfModes, boilTime, maxVolume, resolution, model, producer, typeOfBattery, typeOfAppliance));
         }
         return electricalAppliances;
     }
@@ -118,7 +119,8 @@ public class DOMParserReader {
         Node node = element.getElementsByTagName(paramName.getValue()).item(0);
         if (node != null) {
             return node.getTextContent();
+        } else {
+            throw new LogicalException();
         }
-        throw new LogicalException();
     }
 }
