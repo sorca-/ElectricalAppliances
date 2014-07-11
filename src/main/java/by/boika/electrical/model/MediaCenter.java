@@ -7,9 +7,16 @@ public class MediaCenter extends AbstractLocalAppliance {
     private final int FACTOR = 31;
     private int maxVolume;
 
-    public MediaCenter(int id, TypesOfAppliances typeOfAppliance, String model, String producer, int power, int voltage, int countOfPhase, int maxVolume) {
-        super(id, typeOfAppliance, model, producer, power, voltage, countOfPhase);
+    public MediaCenter() {
+    }
+
+    public int getMaxVolume() {
+        return maxVolume;
+    }
+
+    public AbstractElectricalAppliance setMaxVolume(int maxVolume) {
         this.maxVolume = maxVolume;
+        return this;
     }
 
     @Override

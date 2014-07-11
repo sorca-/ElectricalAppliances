@@ -16,12 +16,4 @@ public class Home {
     public void setElectricalAppliances(ArrayList<AbstractElectricalAppliance> electricalAppliances) {
         this.electricalAppliances = electricalAppliances;
     }
-
-    public void addElectricalAppliance (AbstractElectricalAppliance electricalAppliance) {
-        this.electricalAppliances.add(electricalAppliance);
-    }
-
-    public ArrayList<AbstractElectricalAppliance> getElectricalAppliances() {
-        return electricalAppliances;
-    }
 }

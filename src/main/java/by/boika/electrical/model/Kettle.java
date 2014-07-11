@@ -7,9 +7,16 @@ public class Kettle extends AbstractLocalAppliance {
     private final int FACTOR = 31;
     private int boilTime;
 
-    public Kettle(int id, TypesOfAppliances typesOfAppliance, String model, String producer, int power, int voltage,int countOfPhase, int boilTime) {
-        super(id ,typesOfAppliance, model, producer, power, voltage, countOfPhase);
+    public Kettle() {
+    }
+
+    public int getBoilTime() {
+        return boilTime;
+    }
+
+    public AbstractElectricalAppliance setBoilTime(int boilTime) {
         this.boilTime = boilTime;
+        return this;
     }
 
     @Override

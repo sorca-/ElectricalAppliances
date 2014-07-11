@@ -5,10 +5,25 @@ public abstract class AbstractPortableAppliance extends AbstractElectricalApplia
     private TypesOfBatteries typeOfBattery;
     private final String BATTERY_CHARGING = "Battery charging";
 
-    public AbstractPortableAppliance(int id, TypesOfAppliances typesOfAppliances, String model, String producer, int power, int voltage, int countOfBatteries, TypesOfBatteries typeOfBattery) {
-        super(id, typesOfAppliances, model, producer, power, voltage);
+    public AbstractPortableAppliance() {
+    }
+
+    public int getCountOfBatteries() {
+        return countOfBatteries;
+    }
+
+    public AbstractElectricalAppliance setCountOfBatteries(int countOfBatteries) {
         this.countOfBatteries = countOfBatteries;
+        return this;
+    }
+
+    public TypesOfBatteries getTypeOfBattery() {
+        return typeOfBattery;
+    }
+
+    public AbstractElectricalAppliance setTypeOfBattery(TypesOfBatteries typeOfBattery) {
         this.typeOfBattery = typeOfBattery;
+        return this;
     }
 
     public void chargeBattery() {

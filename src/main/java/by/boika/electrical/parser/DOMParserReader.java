@@ -1,5 +1,6 @@
 package by.boika.electrical.parser;
 
+import by.boika.electrical.builder.Director;
 import by.boika.electrical.exceptions.LogicalException;
 import by.boika.electrical.model.*;
 import org.apache.log4j.LogManager;
@@ -88,22 +89,22 @@ public class DOMParserReader {
             switch (typeOfAppliance) {
                 case HAIRDRYER: {
                     countOfModes = Integer.parseInt(eElement.getAttribute(PropertiesOfAppliance.COUNT_OF_MODES.getValue()));
-                    electricalAppliances.add (new Hairdryer(id, typeOfAppliance, model, producer, power, voltage, countOfPhase, countOfModes));
+                    electricalAppliances.add (Director.getHairdryer(id, typeOfAppliance, model, producer, power, voltage, countOfPhase, countOfModes));
                     break;
                 }
                 case KETTLE: {
                     boilTime = Integer.parseInt(eElement.getAttribute(PropertiesOfAppliance.BOIL_TIME.getValue()));
-                    electricalAppliances.add(new Kettle(id, typeOfAppliance, model, producer, power, voltage, countOfPhase, boilTime));
+                    electricalAppliances.add(Director.getKettle(id, typeOfAppliance, model, producer, power, voltage, countOfPhase, boilTime));
                     break;
                 }
                 case MEDIA_CENTER: {
                     maxVolume = Integer.parseInt(eElement.getAttribute(PropertiesOfAppliance.MAX_VOLUME.getValue()));
-                    electricalAppliances.add(new MediaCenter(id, typeOfAppliance, model, producer, power, voltage, countOfPhase, maxVolume));
+                    electricalAppliances.add(Director.getMediaCenter(id, typeOfAppliance, model, producer, power, voltage, countOfPhase, maxVolume));
                     break;
                 }
                 case PHOTO_CAMERA: {
                     resolution = Integer.parseInt(eElement.getAttribute(PropertiesOfAppliance.RESOLUTION.getValue()));
-                    electricalAppliances.add(new PhotoCamera(id, typeOfAppliance, model, producer, power, voltage, countOfBatteries, typeOfBattery, resolution));
+                    electricalAppliances.add(Director.getPhotoCamera(id, typeOfAppliance, model, producer, power, voltage, countOfBatteries, typeOfBattery, resolution));
                     break;
                 }
                 default: {

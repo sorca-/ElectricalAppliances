@@ -14,19 +14,13 @@ public abstract class AbstractElectricalAppliance {
     private int voltage;
     private boolean switchedOn;
     private TypesOfAppliances typeOfAppliance;
-    private final int ID;
+    private int ID;
 
     static {
         new DOMConfigurator().doConfigure(LOG_CONFIGURATIONS_PATH, LogManager.getLoggerRepository());
     }
 
-    public AbstractElectricalAppliance(int id, TypesOfAppliances typeOfAppliance, String model, String producer, int power, int voltage) {
-        this.ID = id;
-        this.model = model;
-        this.producer = producer;
-        this.power = power;
-        this.voltage = voltage;
-        this.typeOfAppliance = typeOfAppliance;
+    public AbstractElectricalAppliance() {
     }
 
     public int getID() {
@@ -56,6 +50,32 @@ public abstract class AbstractElectricalAppliance {
     public void switchOff () {
         this.switchedOn = false;
     }
+
+    public AbstractElectricalAppliance setModel(String model) {
+        this.model = model;
+        return this;
+    }
+    public AbstractElectricalAppliance setProducer(String producer) {
+        this.producer = producer;
+        return this;
+    }
+    public AbstractElectricalAppliance setPower(int power) {
+        this.power = power;
+        return this;
+    }
+    public AbstractElectricalAppliance setVoltage(int voltage) {
+        this.voltage = voltage;
+        return this;
+    }
+    public AbstractElectricalAppliance setTypeOfAppliance(TypesOfAppliances typeOfAppliance) {
+        this.typeOfAppliance = typeOfAppliance;
+        return this;
+    }
+    public AbstractElectricalAppliance setID(int ID) {
+        this.ID = ID;
+        return this;
+    }
+
     @Override
     public String toString() {
         return getTypeOfAppliance().toString() + " " + getProducer() + " " + getModel() + " " + getPower();

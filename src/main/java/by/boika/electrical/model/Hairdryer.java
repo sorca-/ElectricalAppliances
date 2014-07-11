@@ -6,9 +6,16 @@ public class Hairdryer extends AbstractLocalAppliance {
     private final int FACTOR = 31;
     private int countOfModes;
 
-    public Hairdryer(int id, TypesOfAppliances typeOfAppliance, String model, String producer, int power, int voltage, int countOfPhase, int countOfModes) {
-        super(id, typeOfAppliance, model, producer, power, voltage, countOfPhase);
+    public Hairdryer() {
+    }
+
+    public int getCountOfModes() {
+        return countOfModes;
+    }
+
+    public AbstractElectricalAppliance setCountOfModes(int countOfModes) {
         this.countOfModes = countOfModes;
+        return this;
     }
 
     @Override
