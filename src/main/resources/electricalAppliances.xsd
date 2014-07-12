@@ -15,7 +15,7 @@
     <element name="appliances">
         <complexType>
             <sequence>
-                <element ref="tns:appliance" minOccurs="0" maxOccurs="unbounded"/>
+                <element ref="tns:appliance" minOccurs="2" maxOccurs="unbounded"/>
             </sequence>
         </complexType>
     </element>
@@ -31,25 +31,33 @@
     </complexType>
 
     <complexType name="Local">
-        <sequence>
-            <element name="count-of-phase" type="positiveInteger"/>
-        </sequence>
+        <complexContent>
+            <extension base="tns:Appliance">
+                <sequence>
+                    <element name="count-of-phase" type="positiveInteger"/>
+                </sequence>
+            </extension>
+        </complexContent>
     </complexType>
 
     <complexType name="Portable">
-        <sequence>
-            <element name="count-of-batteries" type="positiveInteger"/>
-            <element name="type-of-battery">
-                <simpleType>
-                    <restriction base="string">
-                        <enumeration value="LI_ION"/>
-                        <enumeration value="PB"/>
-                        <enumeration value="NI_MH"/>
-                        <enumeration value="NI_CD"/>
-                    </restriction>
-                </simpleType>
-            </element>
-        </sequence>
+        <complexContent>
+            <extension base="tns:Appliance">
+                <sequence>
+                    <element name="count-of-batteries" type="positiveInteger"/>
+                    <element name="type-of-battery">
+                        <simpleType>
+                            <restriction base="string">
+                                <enumeration value="LI_ION"/>
+                                <enumeration value="PB"/>
+                                <enumeration value="NI_MH"/>
+                                <enumeration value="NI_CD"/>
+                            </restriction>
+                        </simpleType>
+                    </element>
+                </sequence>
+            </extension>
+        </complexContent>
     </complexType>
 
     <complexType name="Hairdryer">
