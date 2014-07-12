@@ -1,5 +1,8 @@
 <?xml version="1.1" encoding="UTF-8" ?>
-<appliances>
+<appliances
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.star4.in"
+        xsi:schemaLocation="http://www.star4.in electricalAppliances.xsd">
     <local>
         <hairdryer id = "1" count-of-modes = "4">
             <model>HPS32</model>
@@ -42,7 +45,6 @@
             <power>9</power>
             <count-of-batteries>4</count-of-batteries>
             <type-of-battery>LI_ION</type-of-battery>
-            <resolution>12</resolution>
         </photo_camera>
     </portable>
 </appliances>

@@ -56,7 +56,7 @@ public class DOMParserReader {
         if (node != null) {
             return node.getTextContent();
         } else {
-            throw new LogicalException();
+            throw new LogicalException("Cant read null element. ");
         }
     }
 

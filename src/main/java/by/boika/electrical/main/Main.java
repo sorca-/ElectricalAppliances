@@ -28,12 +28,18 @@ public class Main {
         DOMParserReader domParserReader = new DOMParserReader();
         SAXParserReader saxParserReader = new SAXParserReader();
 
-//            home.setElectricalAppliances(domParserReader.parseElectricalAppliance(PATH));
-        home.setElectricalAppliances(saxParserReader.parseElectricalAppliance(PATH));
+        //DOM
+        try {
+            home.setElectricalAppliances(domParserReader.parseElectricalAppliance(PATH));
+        } catch (LogicalException e) {
+            LOGGER.error(e);
+        }
 
-        ControlAppliances controlAppliances = new ControlAppliances();
+        //SAX
+        //home.setElectricalAppliances(saxParserReader.parseElectricalAppliance(PATH));
 
         //check function
+        ControlAppliances controlAppliances = new ControlAppliances();
         controlAppliances.switchOnAllAppliance(home.getIterator());
         LOGGER.info(controlAppliances.calculatePower(home.getIterator()));
         controlAppliances.switchOffAllAppliance(home.getIterator());

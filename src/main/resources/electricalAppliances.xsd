@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.star4.in"
+        xmlns:tns="http://www.star4.in"
+        elementFormDefault="qualified">
+
+    <element name="appliance" type="tns:Appliance" abstract="true"/>
+    <element name="local" type="tns:Local" abstract="true" substitutionGroup="tns:appliance"/>
+    <element name="portable" type="tns:Portable" abstract="true" substitutionGroup="tns:appliance"/>
+    <element name="hairdryer" type="tns:Hairdryer" substitutionGroup="tns:local"/>
+    <element name="kettle" type="tns:Kettle" substitutionGroup="tns:local"/>
+    <element name="media_center" type="tns:Media_Center" substitutionGroup="tns:local"/>
+    <element name="photo_camera" type="tns:Photo_Camera" substitutionGroup="tns:portable"/>
+
+    <element name="appliances">
+        <complexType>
+            <sequence>
+                <element ref="tns:appliance" minOccurs="0" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <complexType name="Appliance">
+        <sequence>
+            <element name="model" type="string" default="unknown"/>
+            <element name="producer" type="string" default="unknown"/>
+            <element name="voltage" type="positiveInteger"/>
+            <element name="power" type="positiveInteger"/>
+        </sequence>
+        <attribute name="id" type="ID" use="required"/>
+    </complexType>
+
+    <complexType name="Local">
+        <sequence>
+            <element name="count-of-phase" type="positiveInteger"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="Portable">
+        <sequence>
+            <element name="count-of-batteries" type="positiveInteger"/>
+            <element name="type-of-battery">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="LI_ION"/>
+                        <enumeration value="PB"/>
+                        <enumeration value="NI_MH"/>
+                        <enumeration value="NI_CD"/>
+                    </restriction>
+                </simpleType>
+            </element>
+        </sequence>
+    </complexType>
+
+    <complexType name="Hairdryer">
+        <complexContent>
+            <extension base="tns:Local">
+                <attribute name="count-of-modes" use="optional" default="N/A"/>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Kettle">
+        <complexContent>
+            <extension base="tns:Local">
+                <attribute name="boil-time" type="positiveInteger" use="required"/>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Media_Center">
+        <complexContent>
+            <extension base="tns:Local">
+                <attribute name="max-volume" type="positiveInteger" use="required"/>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Photo_Camera">
+        <complexContent>
+            <extension base="tns:Portable">
+                <attribute name="resolution" type="positiveInteger" use="required"/>
+            </extension>
+        </complexContent>
+    </complexType>
+</schema>
