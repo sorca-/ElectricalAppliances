@@ -80,4 +80,6 @@ public abstract class AbstractElectricalAppliance {
     public String toString() {
         return getTypeOfAppliance().toString() + " " + getProducer() + " " + getModel() + " " + getPower();
     }
+
+
 }

@@ -1,46 +1,41 @@
 <?xml version="1.1" encoding="UTF-8" ?>
 <appliances>
     <local>
-        <appliance id = "1" count-of-modes = "4">
-            <type-of-appliance>Hairdryer</type-of-appliance>
+        <hairdryer id = "1" count-of-modes = "4">
             <model>HPS32</model>
             <producer>Philips</producer>
             <voltage>220</voltage>
             <power>100</power>
             <count-of-phase>2</count-of-phase>
-        </appliance>
+        </hairdryer>
 
-        <appliance id = "2" count-of-modes = "2">
-            <type-of-appliance>Hairdryer</type-of-appliance>
+        <hairdryer id = "2" count-of-modes = "2">
             <model>HSY55</model>
             <producer>SONY</producer>
             <voltage>220</voltage>
             <power>200</power>
             <count-of-phase>2</count-of-phase>
-        </appliance>
+        </hairdryer>
 
-        <appliance id = "3" boil-time = "110">
-            <type-of-appliance>Kettle</type-of-appliance>
+        <kettle id = "3" boil-time = "110">
             <model>KPB43</model>
             <producer>Philips</producer>
             <voltage>220</voltage>
             <power>1000</power>
             <count-of-phase>2</count-of-phase>
-        </appliance>
+        </kettle>
 
-        <appliance id = "4" max-volume = "60">
-            <type-of-appliance>Media_Center</type-of-appliance>
+        <media_center id = "4" max-volume = "60">
             <model>MCS22</model>
             <producer>SONY</producer>
             <voltage>220</voltage>
             <power>100</power>
             <count-of-phase>2</count-of-phase>
-        </appliance>
+        </media_center>
     </local>
 
     <portable>
-        <appliance id = "5" resolution = "12">
-            <type-of-appliance>Photo_Camera</type-of-appliance>
+        <photo_camera id = "5" resolution = "12">
             <model>D5100</model>
             <producer>NIKON</producer>
             <voltage>6</voltage>
@@ -48,6 +43,6 @@
             <count-of-batteries>4</count-of-batteries>
             <type-of-battery>LI_ION</type-of-battery>
             <resolution>12</resolution>
-        </appliance>
+        </photo_camera>
     </portable>
 </appliances>

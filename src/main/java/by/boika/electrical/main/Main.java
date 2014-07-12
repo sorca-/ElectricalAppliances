@@ -4,7 +4,8 @@ import by.boika.electrical.exceptions.LogicalException;
 import by.boika.electrical.functionality.ControlAppliances;
 import by.boika.electrical.model.AbstractElectricalAppliance;
 import by.boika.electrical.model.Home;
-import by.boika.electrical.parser.DOMParserReader;
+import by.boika.electrical.parsers.DOMParser.DOMParserReader;
+import by.boika.electrical.parsers.SAXParser.SAXParserReader;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
@@ -25,11 +26,11 @@ public class Main {
 
         Home home = new Home();
         DOMParserReader domParserReader = new DOMParserReader();
-        try {
-            home.setElectricalAppliances(domParserReader.parseElectricalAppliance(PATH));
-        } catch (LogicalException e) {
-            LOGGER.error("Logic exception. " + e);
-        }
+        SAXParserReader saxParserReader = new SAXParserReader();
+
+//            home.setElectricalAppliances(domParserReader.parseElectricalAppliance(PATH));
+        home.setElectricalAppliances(saxParserReader.parseElectricalAppliance(PATH));
+
         ControlAppliances controlAppliances = new ControlAppliances();
 
         //check function
