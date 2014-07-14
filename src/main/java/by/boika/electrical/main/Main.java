@@ -4,8 +4,9 @@ import by.boika.electrical.exceptions.LogicalException;
 import by.boika.electrical.functionality.ControlAppliances;
 import by.boika.electrical.model.AbstractElectricalAppliance;
 import by.boika.electrical.model.Home;
-import by.boika.electrical.parsers.DOMParser.DOMParserReader;
-import by.boika.electrical.parsers.SAXParser.SAXParserReader;
+import by.boika.electrical.parsers.dom.DOMParserReader;
+import by.boika.electrical.parsers.sax.SAXParserReader;
+import by.boika.electrical.parsers.stax.StAXParser;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
@@ -13,6 +14,7 @@ import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
+import java.util.Iterator;
 
 public class Main {
     private static final String LOG_CONFIGURATIONS_PATH = "src\\main\\resources\\log4j.xml";
@@ -27,16 +29,25 @@ public class Main {
         Home home = new Home();
         DOMParserReader domParserReader = new DOMParserReader();
         SAXParserReader saxParserReader = new SAXParserReader();
+        StAXParser staxParser = new StAXParser();
 
         //DOM
-        try {
-            home.setElectricalAppliances(domParserReader.parseElectricalAppliance(PATH));
-        } catch (LogicalException e) {
-            LOGGER.error(e);
-        }
+//        try {
+//            home.setElectricalAppliances(domParserReader.parseElectricalAppliance(PATH));
+//        } catch (LogicalException e) {
+//            LOGGER.error(e);
+//        }
 
         //SAX
         //home.setElectricalAppliances(saxParserReader.parseElectricalAppliance(PATH));
+
+        //StAX
+        home.setElectricalAppliances(staxParser.parse(PATH));
+
+//        Iterator<AbstractElectricalAppliance> it = home.getIterator();
+//        while (it.hasNext()) {
+//            LOGGER.info(it.next().getProducer());
+//        }
 
         //check function
         ControlAppliances controlAppliances = new ControlAppliances();

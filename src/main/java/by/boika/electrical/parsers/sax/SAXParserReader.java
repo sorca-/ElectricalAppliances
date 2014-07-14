@@ -1,6 +1,5 @@
-package by.boika.electrical.parsers.SAXParser;
+package by.boika.electrical.parsers.sax;
 
-import by.boika.electrical.exceptions.TechnicalException;
 import by.boika.electrical.model.AbstractElectricalAppliance;
 import org.apache.log4j.Logger;
 import org.xml.sax.SAXException;
@@ -25,16 +24,16 @@ public class SAXParserReader {
     public ArrayList<AbstractElectricalAppliance> parseElectricalAppliance(String path) {
         File xmlFile = new File(path.isEmpty() ? DEFAULT_APPLIANCES_PATH : path);
         SAXParserHandler handler = new SAXParserHandler();
-        SAXParser saxParser = null;
+        SAXParser saxParser;
         try {
             saxParser = saxParserFactory.newSAXParser();
             saxParser.parse(xmlFile, handler);
         } catch (ParserConfigurationException e) {
-            LOGGER.error("ParserConfigurationException. " + e);
+            LOGGER.error(e);
         } catch (SAXException e) {
-            LOGGER.error("SAXException. " + e);
+            LOGGER.error(e);
         } catch (IOException e) {
-            LOGGER.error("IOException. " + e);
+            LOGGER.error(e);
         }
         return handler.getElectricalAppliances();
     }

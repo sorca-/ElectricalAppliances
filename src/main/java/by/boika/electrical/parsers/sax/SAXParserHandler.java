@@ -1,4 +1,4 @@
-package by.boika.electrical.parsers.SAXParser;
+package by.boika.electrical.parsers.sax;
 
 import by.boika.electrical.constants.TagsXML;
 import by.boika.electrical.model.*;
@@ -66,9 +66,6 @@ public class SAXParserHandler extends DefaultHandler{
         }
         String value = new String(ch, start, length).trim();
         switch (thisElement) {
-            case "": {
-                break;
-            }
             case TagsXML.MODEL: {
                 currentAppliance.setModel(value);
                 break;
@@ -113,9 +110,9 @@ public class SAXParserHandler extends DefaultHandler{
                 ((PhotoCamera) currentAppliance).setResolution(Integer.parseInt(value));
                 break;
             }
-            case TagsXML.LOCAL :
+            case TagsXML.LOCALS:
                 break;
-            case TagsXML.PORTABLE :
+            case TagsXML.PORTABLES:
                 break;
             case TagsXML.APPLIANCES :
                 break;

@@ -15,8 +15,27 @@
     <element name="appliances">
         <complexType>
             <sequence>
-                <element ref="tns:appliance" minOccurs="2" maxOccurs="unbounded"/>
+                <element ref="tns:locals" minOccurs="1" maxOccurs="1"/>
+                <element ref="tns:portables" minOccurs="1" maxOccurs="1"/>
             </sequence>
+        </complexType>
+    </element>
+
+    <element name="locals">
+        <complexType>
+            <sequence>
+                <element ref="tns:hairdryer" minOccurs="0" maxOccurs="unbounded"/>
+                <element ref="tns:kettle" minOccurs="0" maxOccurs="unbounded"/>
+                <element ref="tns:media_center" minOccurs="0" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="portables">
+        <complexType>
+            <choice>
+                <element ref="tns:photo_camera" minOccurs="0" maxOccurs="unbounded"/>
+            </choice>
         </complexType>
     </element>
 
@@ -27,7 +46,7 @@
             <element name="voltage" type="positiveInteger"/>
             <element name="power" type="positiveInteger"/>
         </sequence>
-        <attribute name="id" type="ID" use="required"/>
+        <attribute name="id" type="integer" use="required"/>
     </complexType>
 
     <complexType name="Local">
@@ -91,4 +110,5 @@
             </extension>
         </complexContent>
     </complexType>
+
 </schema>

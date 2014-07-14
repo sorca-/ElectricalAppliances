@@ -11,11 +11,11 @@ public final class TagsXML {
     public final static String VOLTAGE = "voltage";
 
     //LocalElectricalAppliances
-    public final static String LOCAL = "local";
+    public final static String LOCALS = "locals";
     public final static String COUNT_OF_PHASE = "count-of-phase";
 
     //PortableElectricalAppliances
-    public final static String PORTABLE = "portable";
+    public final static String PORTABLES = "portables";
     public final static String COUNT_OF_BATTERIES = "count-of-batteries";
     public final static String TYPE_OF_BATTERY = "type-of-battery";
 

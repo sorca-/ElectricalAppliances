@@ -3,7 +3,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns="http://www.star4.in"
         xsi:schemaLocation="http://www.star4.in electricalAppliances.xsd">
-    <local>
+    <locals>
         <hairdryer id = "1" count-of-modes = "4">
             <model>HPS32</model>
             <producer>Philips</producer>
@@ -35,9 +35,9 @@
             <power>100</power>
             <count-of-phase>2</count-of-phase>
         </media_center>
-    </local>
+    </locals>
 
-    <portable>
+    <portables>
         <photo_camera id = "5" resolution = "12">
             <model>D5100</model>
             <producer>NIKON</producer>
@@ -46,5 +46,5 @@
             <count-of-batteries>4</count-of-batteries>
             <type-of-battery>LI_ION</type-of-battery>
         </photo_camera>
-    </portable>
+    </portables>
 </appliances>

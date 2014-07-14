@@ -1,4 +1,4 @@
-package by.boika.electrical.parsers.DOMParser;
+package by.boika.electrical.parsers.dom;
 
 import by.boika.electrical.builder.Director;
 import by.boika.electrical.constants.TagsXML;
@@ -43,8 +43,8 @@ public class DOMParserReader {
         Document doc = dBuilder.parse(xmlFile);
         doc.getDocumentElement().normalize();
 
-        NodeList nListLocal = doc.getElementsByTagName(TagsXML.LOCAL).item(0).getChildNodes();
-        NodeList nListPortable = doc.getElementsByTagName(TagsXML.PORTABLE).item(0).getChildNodes();
+        NodeList nListLocal = doc.getElementsByTagName(TagsXML.LOCALS).item(0).getChildNodes();
+        NodeList nListPortable = doc.getElementsByTagName(TagsXML.PORTABLES).item(0).getChildNodes();
 
         parseNodeList(nListLocal, electricalAppliances);
         parseNodeList(nListPortable, electricalAppliances);
@@ -91,10 +91,10 @@ public class DOMParserReader {
             model = selectValue(eElement, TagsXML.MODEL);
             producer = selectValue(eElement, TagsXML.PRODUCER);
 
-            if (eElement.getParentNode().getNodeName().equals(TagsXML.LOCAL)) {
+            if (eElement.getParentNode().getNodeName().equals(TagsXML.LOCALS)) {
                 countOfPhase = Integer.parseInt(selectValue(eElement, TagsXML.COUNT_OF_PHASE));
             }
-            if (eElement.getParentNode().getNodeName().equals(TagsXML.PORTABLE)) {
+            if (eElement.getParentNode().getNodeName().equals(TagsXML.PORTABLES)) {
                 countOfBatteries = Integer.parseInt(selectValue(eElement, TagsXML.COUNT_OF_BATTERIES));
                 typeOfBattery = TypesOfBatteries.valueOf(selectValue(eElement, TagsXML.TYPE_OF_BATTERY).toUpperCase());
             }
