@@ -4,6 +4,7 @@ import by.boika.electrical.exceptions.LogicalException;
 import by.boika.electrical.functionality.ControlAppliances;
 import by.boika.electrical.model.AbstractElectricalAppliance;
 import by.boika.electrical.model.Home;
+import by.boika.electrical.parsers.ParserFactory;
 import by.boika.electrical.parsers.dom.DOMParserReader;
 import by.boika.electrical.parsers.sax.SAXParserReader;
 import by.boika.electrical.parsers.stax.StAXParser;
@@ -27,22 +28,7 @@ public class Main {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException {
 
         Home home = new Home();
-        DOMParserReader domParserReader = new DOMParserReader();
-        SAXParserReader saxParserReader = new SAXParserReader();
-        StAXParser staxParser = new StAXParser();
-
-        //DOM
-//        try {
-//            home.setElectricalAppliances(domParserReader.parseElectricalAppliance(PATH));
-//        } catch (LogicalException e) {
-//            LOGGER.error(e);
-//        }
-
-        //SAX
-        //home.setElectricalAppliances(saxParserReader.parseElectricalAppliance(PATH));
-
-        //StAX
-        home.setElectricalAppliances(staxParser.parse(PATH));
+        home.setElectricalAppliances(ParserFactory.parse("stax", PATH));
 
 //        Iterator<AbstractElectricalAppliance> it = home.getIterator();
 //        while (it.hasNext()) {

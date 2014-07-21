@@ -3635,3 +3635,105 @@
 14.07.2014 16:21:23 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
 14.07.2014 16:21:23 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
 14.07.2014 16:21:23 [main] INFO  by.boika.electrical.main.Main  - 300
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 begin boil
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 begin play
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera on
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch on
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.main.Main  - 1409
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 finish blow
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 finish blow
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 finish boil
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 finish play
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera off
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch off
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+18.07.2014 12:56:23 [main] INFO  by.boika.electrical.main.Main  - 300
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.parsers.ParserFactory  - DOM
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 begin boil
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 begin play
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera on
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch on
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.main.Main  - 1409
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 finish blow
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 finish blow
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 finish boil
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 finish play
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera off
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch off
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+21.07.2014 17:52:32 [main] INFO  by.boika.electrical.main.Main  - 300
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.parsers.ParserFactory  - sax
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.parsers.ParserFactory  - sax
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 begin boil
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 begin play
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera on
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch on
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.main.Main  - 1409
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 finish blow
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 finish blow
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 finish boil
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 finish play
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera off
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch off
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+21.07.2014 17:52:53 [main] INFO  by.boika.electrical.main.Main  - 300
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.parsers.ParserFactory  - stax
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 begin boil
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 begin play
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera on
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch on
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.main.Main  - 1409
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 finish blow
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 finish blow
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 finish boil
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 finish play
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera off
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch off
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+21.07.2014 17:53:06 [main] INFO  by.boika.electrical.main.Main  - 300
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.parsers.ParserFactory  - stax
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 begin boil
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 begin play
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera on
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch on
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.main.Main  - 1409
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 finish blow
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 finish blow
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 finish boil
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 finish play
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera off
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch off
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+21.07.2014 17:56:14 [main] INFO  by.boika.electrical.main.Main  - 300
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.parsers.ParserFactory  - stax
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 begin boil
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 begin play
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera on
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch on
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.main.Main  - 1409
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 finish blow
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 finish blow
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - KETTLE Philips KPB43 1000 finish boil
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - MEDIA_CENTER SONY MCS22 100 finish play
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - PHOTO_CAMERA NIKON D5100 9 camera off
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.functionality.ControlAppliances  - All appliances switch off
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER Philips HPS32 100 begin to blow
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.model.AbstractElectricalAppliance  - HAIRDRYER SONY HSY55 200 begin to blow
+21.07.2014 22:14:13 [main] INFO  by.boika.electrical.main.Main  - 300
